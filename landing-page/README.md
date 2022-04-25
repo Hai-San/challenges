@@ -30,4 +30,4 @@ O código deve estar semanticamente correto, bem organizado e estruturado.
 * A empresa forneceu arquivos .psd do design que deveria ser feito (sim .psd em pleno 2022). Isso prejudicou bastante a velocidade de desenvolvimento.
 * Decidi fazer a parte do framework com vue.js, que convenhamos é muito melhor do que react.
 * Como eu precisava fazer o mesmo projeto em vanilla, eu foquei na melhor forma de poder reutilizar o código nos dois projetos.
-* No fim a empresa fechou a vaga sem nenhum tipo de aviso e quando fui entregar o projeto a vaga estava fechada (Demorei 4 dias), rir pra não chorar.
+* Quando fui entregar o projeto a vaga estava fechada (Demorei 4 dias), rir pra não chorar.
