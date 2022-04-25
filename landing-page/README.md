@@ -1,7 +1,5 @@
 # Desafio
 
-## Descrição
-
 Desenvolver o front-end dos arquivos PSD disponível no link. Deverão ser entregues DUAS VERSÕES, uma delas construídas em REACT ou VUE ** e a outra SEM A UTILIZAÇÃO DE FRAMEWORK.
 
 O resultado deve ser responsivo e a versão mobile deve condizer com o arquivo PSD mobile;
