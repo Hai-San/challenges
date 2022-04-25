@@ -1,0 +1,9 @@
+<svg class="panelNumber js_panelNumber" data-number="0" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 100">
+  <path class="panelNumber_led -top" d="M12.79 10.983h29.833L52.945 1.18A5.622 5.622 0 0 0 49.495 0H5.657a5.623 5.623 0 0 0-3.43 1.164l10.563 9.819Z"/>
+  <path class="panelNumber_led -topLeft" d="M1.271 2.085A5.635 5.635 0 0 0 0 5.655v38.36a5.65 5.65 0 0 0 3.09 5.035l8.643-6.478V11.81L1.271 2.085Z"/>
+  <path class="panelNumber_led -topRight" d="M43.418 12.056v30.516l8.643 6.478a5.65 5.65 0 0 0 3.09-5.036V5.656a5.63 5.63 0 0 0-1.255-3.55l-10.478 9.95Z"/>
+  <path class="panelNumber_led -bottom" d="M12.79 89.007h29.833l10.322 9.803a5.632 5.632 0 0 1-3.45 1.181H5.657a5.625 5.625 0 0 1-3.43-1.166l10.563-9.818Z"/>
+  <path class="panelNumber_led -bottomLeft" d="M1.271 97.904A5.63 5.63 0 0 1 0 94.334V55.976a5.65 5.65 0 0 1 3.09-5.036l8.643 6.478V88.18L1.271 97.904Z"/>
+  <path class="panelNumber_led -bottomRight" d="M43.418 87.934V57.419l8.643-6.478a5.651 5.651 0 0 1 3.09 5.036v38.358a5.637 5.637 0 0 1-1.255 3.55l-10.478-9.95Z"/>
+  <path class="panelNumber_led -center" d="M42.547 43.994H12.604L4.63 49.872l7.974 5.88h29.945l7.974-5.88-7.974-5.878Z"/>
+</svg>

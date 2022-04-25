@@ -1,0 +1,56 @@
+@use '@/styles/tokens/colors.scss' as *;
+@use '@/styles/tokens/border.scss' as *;
+@use '@/styles/tokens/spacing.scss' as *;
+@use '@/styles/tools/interactions.scss' as *;
+
+.slideOne {
+	width: 100%;
+
+	.swiper-pagination {
+		bottom: 0px;
+
+		padding: $spacing-vh-sm 0px;
+
+		background-color: $color-background-overlay;
+	}
+
+	.swiper-pagination-bullet {
+		width: 42px;
+		height: 42px;
+
+		opacity: 1;
+		background-color: $color-neutral-high-pure;
+		border: $border-size-px-lg solid $color-neutral-low-medium;
+
+		transition: background-color ease-in-out 250ms;
+
+		will-change: background-color;
+
+		&.swiper-pagination-bullet-active {
+			background-color: $color-primary;
+			border-color: $color-neutral-high-pure;
+		}
+
+		@include interaction_full {
+
+			&:not(.swiper-pagination-bullet-active) {
+				background-color: $color-primary;
+			}
+		}
+	}
+
+	.slideOne_slide {
+		display: flex;
+	}
+
+	.slideOne_picture {
+		width: 100%;
+	}
+
+	.slideOne_image {
+		width: 100%;
+		height: 100%;
+
+		object-fit: cover;
+	}
+}

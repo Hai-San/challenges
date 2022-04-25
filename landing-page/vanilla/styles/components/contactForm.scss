@@ -1,0 +1,110 @@
+@use '@/styles/utils/fonts.scss' as *;
+@use '@/styles/tokens/colors.scss' as *;
+@use '@/styles/tokens/spacing.scss' as *;
+@use '@/styles/tokens/layout.scss' as *;
+@use '@/styles/tools/interactions.scss' as *;
+
+.contactForm {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	width: 100%;
+	gap: $spacing-vh-md;
+}
+
+.contactForm_field {
+	width: 100%;
+	
+	&.-medium {
+		width: calc(50% - ($spacing-vh-md / 2));
+	}
+}
+
+.contactForm_label {
+	display: flex;
+	align-items: center;
+
+	width: 100%;
+	padding: $spacing-px-sm;
+
+	background-color: $color-neutral-high-lightest;
+	border-radius: 10px;
+}
+
+.contactForm_label_text {
+	@extend %font_sm_bold;
+
+	margin-right: $spacing-vh-xxxs;
+
+	color: $color-neutral-low-dark;
+
+	&.-textarea {
+		align-self: flex-start;
+
+		margin-top: $spacing-px-nano;
+	}
+}
+
+.contactForm_input {
+	@extend %font_sm_regular;
+	
+	flex-grow: 1;
+
+	color: $color-neutral-low-lightest;
+	background-color: transparent;
+
+	&.-textarea {
+		min-height: 180px;
+	}
+
+	&:-webkit-autofill {
+
+		&:hover,
+		&:focus,
+		&:active {
+			box-shadow: 0 0 0 30px $color-neutral-high-light inset !important;
+		}
+	}
+	
+
+	&:-webkit-autofill {
+		box-shadow: 0 0 0 30px $color-neutral-high-light inset !important;
+
+		-webkit-text-fill-color: $color-neutral-low-lightest !important;
+	}
+}
+
+.contactForm_submit {
+	@extend %font_sm_bold;
+
+	padding: $spacing-px-sm $spacing-px-xl;
+
+	color: $color-neutral-low-dark;
+	background-color: $color-neutral-high-pure;
+	border-radius: 10px;
+
+	text-transform: uppercase;
+
+	transition: color ease-in-out 250ms, background-color ease-in-out 250ms;
+
+	cursor: pointer;
+
+	will-change: color, background-color;
+
+	@include interaction_full {
+		color: $color-neutral-high-pure;
+		background-color: $color-neutral-low-dark;
+	}
+
+}
+
+@media (max-width: $media-mobile-xl) {
+
+	.contactForm_field {
+
+		&.-medium {
+			width: 100%;
+		}
+	}
+}
